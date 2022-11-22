@@ -41,6 +41,8 @@ gem "tzinfo-data", platforms: %i[ mingw mswin x64_mingw jruby ]
 
 # Reduces boot times through caching; required in config/boot.rb
 gem "bootsnap", require: false
+gem "materialize-sass", github: 'mkhairi/materialize-sass'
+gem "material_icons" 
 
 # Use Sass to process CSS
 # gem "sassc-rails"
@@ -70,3 +72,5 @@ group :test do
   gem "selenium-webdriver"
   gem "webdrivers"
 end
+
+
